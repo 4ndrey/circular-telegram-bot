@@ -1,7 +1,8 @@
 {
+  "main": "bot.js",
   "scripts": {
     "build": "tsc",
-    "start": "node bot.js",
+    "start": "node dist/bot.js",
     "dev": "env-cmd ts-node-dev bot.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
