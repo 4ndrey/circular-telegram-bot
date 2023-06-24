@@ -1,8 +1,8 @@
 {
   "scripts": {
     "build": "tsc",
-    "start": "node dist/bot.js",
-    "dev": "env-cmd ts-node-dev src/bot.ts",
+    "start": "node bot.js",
+    "dev": "env-cmd ts-node-dev bot.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
